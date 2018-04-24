@@ -14,7 +14,7 @@ class Application
     if num_1==num_2 && num_2==num_3
       resp.write "you Win!"
     else
-      resp.write "you Win!"
+      resp.write "you Lose!"
     end
 
     resp.finish #don't touch
